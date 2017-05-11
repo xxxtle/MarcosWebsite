@@ -1,6 +1,9 @@
 body {
-	background: url(18280204_1326078614096218_828407430_n.jpg) no-repeat;
-	background-size: 100%;
+	background: url(18280204_1326078614096218_828407430_n.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 #title {
 	border: 10px solid black;
