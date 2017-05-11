@@ -6,10 +6,9 @@ body {
 	border: 10px solid black;
 	line-height: 5px;
 	text-align: center;
-    top:25%;
+    	top:25%;
 	left: 25%;
-	margin: auto;
-	
+	margin: auto;	
 }
 h1 {
 	text-transform: uppercase;
@@ -28,7 +27,7 @@ h2 {
 .header {
 	position: absolute;
 	top: 75% ;
-	left: 43%;
+	left: 42%;
 }
 a:link, a:visited {
   text-decoration: none;
