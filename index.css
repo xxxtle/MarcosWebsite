@@ -1,45 +1,81 @@
 body {
-	background: url(18280204_1326078614096218_828407430_n.jpg) no-repeat center center fixed; 
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+	background: url(collage.png) center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
-#title {
-	border: 10px solid black;
-	line-height: 5px;
-	text-align: center;
-    	top:25%;
-	left: 25%;
-	margin: auto;	
+#subtopics {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	width: 100%;
+	font-family: "Abhaya Libre"; 
+	font-size: 25px;
 }
-h1 {
-	text-transform: uppercase;
-	font-family: "verdana", sans-serif;
-	font-style: italic;
-	font-size: 130px;
+ul {
+	list-style-type: none;
 	
 }
+li {
+	float: left;
+	margin-left: 20px;
+}
+.link {
+	display: block;
+	background-color: none;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	border-left: solid white 1px;
+	border-right: solid white 1px;
+	text-decoration: none;
+}
+.link:hover {
+	background-color: white;
+	color: #2478ef;
+	border-left: solid #2478ef 1px;
+	border-right: solid #2478ef 1px;
+	text-decoration: none;
+}
+.fa {
+	padding: 10px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 5px;
+	background: #125688;
+	color: white; 
+	border-radius: 50%;
+	float: right;	
+}	
+.fa:hover { 
+	opacity: 0.7;
+	background: white;
+	color: #2478ef;
+}
+#title {
+	display: block;
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+h1 {
+	font-family: "Archivo Narrow";
+	font-size: 100px;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+
+}	
 h2 {
-	font: 400 80px 'Great Vibes', Helvetica, sans-serif;
-	color: black;
-	margin-bottom: 20px;
-	margin-left: 10px;
-	margin-right: 10px;
+	font-family: "Angkor";
+	font-size: 22px;
+	margin: 0px;
 }
-.header {
-	position: absolute;
-	top: 75% ;
-	left: 42%;
-}
-a:link, a:visited {
-  text-decoration: none;
-  background-color: #000000;
-  border: 1px solid #004d4d;
-  color: white;
-  display: block;
-  width: 250px;
-  text-align: center;
-  margin-bottom: 2px;
-  font-size: 25px;
-}
+p {
+	text-transform: uppercase;
+	font-family: "Angkor";
+	font-size: 18px;
+	bottom: 30%;
+} 
