@@ -1,0 +1,111 @@
+﻿body {
+	background: url(collage.png) no-repeat fixed;
+	background-size: 120%;
+}
+#subtopics {
+	margin-top: 0%
+	margin-bottom: 50px;
+	width: 100%;
+	font-family: "Courier New", monospace;
+	font-size: 25px;
+}
+ul {
+	list-style-type: none;
+	
+}
+li {
+	float: left;
+	margin-left: 20px;
+}
+.link {
+	display: block;
+	background-color: none;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.link:hover {
+	background-color: white;
+	color: #2478ef;
+	text-decoration: none;
+}
+.fa {
+	opacity: 0.6;
+	padding: 10px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 5px;
+	background: white;
+	color: #3e5984;
+	border-radius: 50%;
+	float: right;
+}	
+.fa:hover { 
+	opacity: 0.7;
+	background: #3e5984;
+	color: white;
+}
+#title {
+	display: block;
+	color: white;
+	text-align: center;
+}
+h1 {
+	font-family: "Archivo Narrow";
+	font-size: 140px;
+	text-transform: uppercase;
+	margin-top: 13%;
+	margin-bottom: 20px;
+}	
+h2 {
+	font-family: "Courier New", monospace;
+	font-size: 30px;
+	margin-top: -30px;
+}
+p {
+	text-transform: uppercase;
+	font-family: "Courier New", monospace;
+	font-size: 18px;
+	margin-top: 300px;
+}
+#sections1 {
+	opacity: 0.7;
+	width: 275px;
+	height: 275px;
+	text-align: center;
+	text-decoration: none;
+	background: url(photo.png) white center no-repeat;
+	background-size: 125px;
+	color: #3e5984;
+	border-radius: 50%;
+	float: right;
+	margin-top: -170px;	
+}	
+#sections2 {
+	opacity: 0.7;
+	width: 275px;
+	height: 275px;
+	text-align: center;
+	text-decoration: none;
+	background: url(news.png) white center no-repeat;
+	background-size: 125px;
+	color: #3e5984;
+	border-radius: 50%;
+	float: left;
+	margin-top: -170px;	
+}	
+#sections1:hover { 
+	opacity: 0.8;
+	background: url(gallery-icon.png) #3e5984 center no-repeat;
+	background-size: 125px;
+	color: white;
+}
+#sections2:hover { 
+	opacity: 0.8;
+	background: url(newss.png) #3e5984 center no-repeat;
+	background-size: 125px;
+	color: white;
+}
