@@ -248,11 +248,53 @@ body {
 	overflow-x; hidden;
 	text-align: justify;
 	text-justify: inter-word;
-	width: 22%;
+	width: 200px;
 	height: 800px;
 	float: left;
 	margin-left: 30px;
 	background-color: white;
 	opacity: 0.8;
-	font-family: "Courier New", monospace;
+	font-family: Roboto Condensed;
+	margin-bottom: 20px;
 }
+.article {
+	width: 300px;
+	font-family: Roboto Condensed;
+	background-color: white;
+	float: left;
+	margin-right: 20px;
+	padding-bottom: 20px;
+}
+.articletitle {
+	margin: 30px 0px 0px 10px;
+	font-size: 24px;
+}
+.articletext {
+	margin: 20px 0px 20px 10px;
+	font-size: 18px;
+}
+.button {
+	text-transform: uppercase;
+	margin-left: 85px;
+	margin-top: 20px;
+	background-color: #007acc;
+	color: white;
+	text-align: center;
+	padding: 5px 30px;
+	font-family: Roboto Condensed;
+	border-radius: 2px;
+	text-decoration: none;
+}
+.button:hover {
+	background-color: #004d80;
+}
+.img {
+	margin: 0px;
+	width: 300px;
+}
+.author {
+	color: #595959;
+	margin: 20px 0px 0px 10px;
+	font-size: 21px;
+}
+	
