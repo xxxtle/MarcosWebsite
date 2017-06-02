@@ -1,214 +1,61 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title> Articles </title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="Search.css">
-<link href='//fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
-<link href='//fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-</head> 
-/* Five columns side by side */
-.column {
-    float: left;
-    width: 20%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-	margin-top; 20px;
-}
-.columnn {
-    float: left;
-    width: 20%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-	margin-left:25px;
-}
-
-/* Display the columns below each other instead of side by side on small screens */
-@media (max-width: 650px) {
-    .column {
-        width: 100%;
-        display: block;
-    }
-}
-
-/* Add some shadows to create a card effect */
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* Some left and right padding inside the container */
-.container {
-    padding: 0 16px;
-	font-family: Roboto Condensed; 
-	
-}
-
-/* Clear floats */
-.container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.title {
-	font-family: Assistant;
-    color: grey;
-	
-}
-
-.button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #00b3b3;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-	font-family: Roboto Condensed; 
-}
-
-.button:hover {
-    background-color: #008080;
-}
-
-body {
-	margin:0;
-	}
-	
-.icon-bar {
-    width: 100%; /* Full-width */
-    background-color: #00b3b3; /* Dark-grey background */
-    overflow: auto; /* Overflow due to float */
-}
-
-.icon-bar a {
-    float: left; /* Float links side by side */
-    text-align: center; /* Center-align text */
-    width: 25%; /* Equal width (5 icons with 20% width each = 100%)
-    padding: 20px 0; /* Some top and bottom padding */
-    transition: all 0.3s ease; /* Add transition for hover effects */
-    color: white; /* White text color */
-    font-size: 45px; /* Increased font size */
-}
-
-.icon-bar a:hover {
-    background-color: #000; /* Add a hover color */
-}
-
-.active {
-    background-color: #008080; /* Add an active/current color */
-}
-p {
-	font-family: Assistant;
-	font-size: 17px;
-}
-<body>
-<div class="icon-bar">
-	<a href="index.html"><i class="fa fa-home"></i></a>
-   <a class="active" href="#"><i class="fa fa-search"></i></a> 
-  <a href="#"><i class="fa fa-play-circle"></i></a> 
-  <a href="#"><i class="fa fa-globe"></i></a> 
-</div>
-&emsp;
-<div class="row">
-  <div class="columnn">
-    <div class="card">
-      <img src="1.jpg" style="width:100%">
-      <div class="container">
-        <h2>The Marcos Diary: At the heart of a dictator</h2>
-        <p class="title">William Rempel</p>
-        <p> The diary says so much about the vulnerability of democracy wherever fiction trumps the truth. </p>
-        <p><button class="button"> <a href="http://www.rappler.com/thought-leaders/26252-marcos-diary-at-the-heart-of-a-dictator"> READ MORE </a> </button></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="2.jpg" style="width:100%">
-      <div class="container">
-        <h2>Making Sense of the Philippines</h2>
-        <p class="title">Concepsion de Leon</p>
-        <p> This would not be the first time the United States has supported an authoritarian leader in the Philippines. </p>
-        <p><button class="button"> <a href="https://www.nytimes.com/2017/05/03/books/newsbook-philippines.html?rref=collection%2Ftimestopic%2FMarcos%2C%20Ferdinand%20E.&_r=0"> READ MORE </a> </button></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="3.jpg" style="width:100%">
-      <div class="container">
-        <h2>Hero’s Burial for Ferdinand Marcos Draws Protests From Dictator’s Victims</h2>
-        <p class="title">Richard C. Paddock</p>
-        <p> Ferdinand E. Marcos, the Philippine dictator, was buried with military honors in Manila on Friday, 30 years after his death. Human rights groups and politicians protested outside the cemetery. </p>
-        <p><button class="button"> <a href="https://www.nytimes.com/2016/11/19/world/asia/philippines-marcos-burial.html?rref=collection%2Ftimestopic%2FMarcos%2C%20Ferdinand%20E."> READ MORE </a> </button></p>
-      </div>
-    </div>
-  </div>
-	<div class="column">
-    <div class="card">
-      <img src="4.jpg" style="width:100%">
-      <div class="container">
-        <h2>A Hero’s Burial for a Long-Dead Dictator</h2>
-        <p class="title">Miguel Syjuco</p>
-        <p> This hero’s burial is the latest move to whitewash the Marcos regime’s crimes. </p>
-        <p><button class="button"> <a href="https://www.nytimes.com/2016/09/07/opinion/a-heros-burial-for-a-long-dead-dictator.html?rref=collection%2Ftimestopic%2FMarcos%2C%20Ferdinand%20E."> READ MORE </a> </button></p>
-      </div>
-    </div>
-  </div>
-</div>
-	<div class="columnn">
-    <div class="card">
-      <img src="5.jpg" style="width:100%">
-      <div class="container">
-        <h2>Standing Up to a Strongman</h2>
-        <p class="title">Miguel Syjuco</p>
-        <p> Homemade, cardboard, some laminated with packing tape to protect them from the rain, the signs expressed the rage of thousands of young Filipinos rallying against the recent, clandestine burial of the dictator Ferdinand Marcos in the Cemetery of Heroes. </p>
-        <p><button class="button"> <a href="https://www.nytimes.com/2016/12/11/opinion/standing-up-to-a-strongman.html?rref=collection%2Ftimestopic%2FMarcos%2C%20Ferdinand%20E."> READ MORE </a> </button></p>
-      </div>
-    </div>
-  </div>
-	<div class="column">
-    <div class="card">
-      <img src="real.jpg" alt="Smosh" style="width:100%">
-      <div class="container">
-        <h2>Ian Andrew Hecox and Daniel Anthony Padilla</h2>
-        <p class="title">SMOSH</p>
-        <p>SHUTTT UPPP!   </p>
-        <p>Follow their youtube channel: Smosh and Smosh 2nd Channel</p>
-        <p><button class="button">LEARN MORE</button></p>
-      </div>
-    </div>
-  </div>
-	<div class="column">
-    <div class="card">
-      <img src="liza.jpg" alt="Shane" style="width:100%">
-      <div class="container">
-        <h2>Liza Koshy</h2>
-        <p class="title">LIZA</p>
-        <p>What you going to do in wallmart? DANCE, DANCE, DANCE!   </p>
-        <p>Follow her youtube channel: Liza</p>
-        <p><button class="button">LEARN MORE</button></p>
-      </div>
-    </div>
-  </div>
-	<div class="column">
-    <div class="card">
-      <img src="SHANEE.jpg" alt="Shane" style="width:100%">
-      <div class="container">
-        <h2>Shane Dawson</h2>
-        <p class="title">Shane</p>
-        <p> SHANAYNAY! Shane uses a different kind of humor that will always make you laugh.   </p>
-        <p>Follow his youtube channel: shane and Shane Dawson TV</p>
-        <p><button class="button">LEARN MORE</button></p>
-      </div>
-    </div>
-  </div>
-	
-</body>
-</html>
+	<html>
+	<head>
+		<link rel="stylesheet" href="index.css">
+		<link rel="shortcut icon" href="marcos.gif">
+		<link href='//fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+		<link rel="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta charset="utf-8">
+		<title>Articles</title>
+	</head>
+	<body>
+		<div id="subtopics">
+			<ul>
+				<li><a href="index.html" class="link">Home</a></li>
+				<li><a href="biography.html" class="link">Biography</a></li>
+				<li><a href="martiallaw.html" class="link">Martial Law</a></li>
+				<li><a href="opinions.html" class="link">Opinions</a></li>
+			</ul>
+			<a href="https://www.facebook.com" class="fa fa-facebook"></a>
+			<a href="https://www.google.com" class="fa fa-google"></a>
+			<a href="https://www.github.com" class="fa fa-github"></a>
+			<br>
+		</div>
+		<div class="article" style="margin-left: 30px;">
+			<img class="img" src="1.jpg" style="height: 415px;">
+			<h2 class="articletitle">The Marcos Diary: At the heart of a dictator</h2>
+			<p class="author">William Rempel</p>
+			<p class="articletext">The diary says so much about the vulnerability of democracy wherever fiction trumps the truth.</p>
+			<a href="http://www.rappler.com/thought-leaders/26252-marcos-diary-at-the-heart-of-a-dictator" class="button">read more</a>
+		</div>
+		<div class="article">
+			<img class="img" src="2.jpg" style="height: 462;">
+			<h2 class="articletitle">Making Sense of the Philippines</h2>
+			<p class="author">Concepsion de Leon</p>
+			<p class="articletext">This would not be the first time the United States has supported an authoritarian leader in the Philippines.</p>
+			<a href="https://www.nytimes.com/2017/05/03/books/newsbook-philippines.html?rref=collection%2Ftimestopic%2FMarcos%2C%20Ferdinand%20E.&_r=0" class="button">Read more</a>
+		</div>
+		<div class="article">
+			<img class="img" src="3.jpg" style="height: 172;>
+			<h2 class="articletitle">Hero’s Burial for Ferdinand Marcos Draws Protests From Dictator’s Victims</h2>
+			<p class="author">Richard C. Paddoc</p>
+			<p class="articletext">Ferdinand E. Marcos, the Philippine dictator, was buried with military honors in Manila on Friday, 30 years after his death. Human rights groups and politicians protested outside the cemetery.</p>
+			<a href="https://www.nytimes.com/2016/11/19/world/asia/philippines-marcos-burial.html?rref=collection%2Ftimestopic%2FMarcos%2C%20Ferdinand%20E." class="button">Read more</a>
+		</div>
+		<div class="article">
+			<img class="img" src="4.jpg" style="height: 213">
+			<h2 class="articletitle">A Hero’s Burial for a Long-Dead Dictator</h2>
+			<p class="author">Miguel Syjuco</p>
+			<p class="articletext">This hero’s burial is the latest move to whitewash the Marcos regime’s crimes.</p>
+			<a href="https://www.nytimes.com/2016/09/07/opinion/a-heros-burial-for-a-long-dead-dictator.html?rref=collection%2Ftimestopic%2FMarcos%2C%20Ferdinand%20E." class="button">Read more</a>
+		</div>
+		<div class="article">
+			<img class="img" src="5.jpg" style="height: 200">
+			<h2 class="articletitle">Standing Up to a Strongman</h2>
+			<p class="author">Miguel Syjuco</p>
+			<p class="articletext">Homemade, cardboard, some laminated with packing tape to protect them from the rain, the signs expressed the rage of thousands of young Filipinos rallying against the recent, clandestine burial of the dictator Ferdinand Marcos in the Cemetery of Heroes.</p>
+			<a href="https://www.nytimes.com/2016/12/11/opinion/standing-up-to-a-strongman.html?rref=collection%2Ftimestopic%2FMarcos%2C%20Ferdinand%20E." class="button">Read more</a>
+		</div>
+	</body>
+	</html>
+			
