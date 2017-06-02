@@ -256,6 +256,8 @@ body {
 	opacity: 0.8;
 	font-family: Roboto Condensed;
 	margin-bottom: 20px;
+	text-align: justify;
+    	text-justify: inter-word;
 }
 .article {
 	width: 300px;
