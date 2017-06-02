@@ -297,4 +297,18 @@ body {
 	margin: 20px 0px 0px 10px;
 	font-size: 21px;
 }
-	
+#full {
+	margin-right: 30px;
+	width: 300px;
+	float: left;
+}
+.gallery {
+	width: 270px;
+	margin: 12px 12px 40px 12px;
+}
+.full {
+	background-color: white;
+	width: 300px;
+	border-radius: 3px;
+	margin-bottom: 	30px;
+}
